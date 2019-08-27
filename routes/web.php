@@ -24,4 +24,5 @@ Route::get('/home', 'HomeController@index')->name('home');
 // crud mesa
 
 Route::resource('mesas', 'MesaController');
+Route::resource('insumo', 'MesaController');
 
